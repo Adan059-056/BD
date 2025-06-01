@@ -1,7 +1,12 @@
-#include <stdi.h>
 
 int main()
 {
+	int i = 0;
+
+	for(;i<10; i++)
+	{
 	print("Hola Mundo");
+	}
 	return 0;	
 }
+
