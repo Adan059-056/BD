@@ -3,9 +3,14 @@ int main()
 {
 	int i = 0;
 
-	for(;i<10; i++)
+	while(i)
 	{
-	print("Hola Mundo");
+		print("Hola Mundo");
+		i++;
+		if(i>10)
+		{
+			break;
+		}
 	}
 	return 0;	
 }
